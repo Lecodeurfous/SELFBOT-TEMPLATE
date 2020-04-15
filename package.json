@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "bitfield": "^2.0.0",
-    "bufferutil": "^4.0.0",
     "chalk": "^2.4.1",
     "cheerio": "^1.0.0-rc.2",
     "common-tags": "^1.8.0",
