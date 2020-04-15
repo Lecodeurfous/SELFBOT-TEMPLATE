@@ -1,6 +1,6 @@
 {
-  "name": "BOT-TEMPLATE",
-  "version": "2.3.0",
+  "name": "lestreamdiscord",
+  "version": "1.0.0",
   "description": "template bot",
   "main": "bot.js",
   "scripts": {
@@ -59,6 +59,7 @@
     "webdict": "^0.3.0"
   },
   "engines": {
+    "npm": "6.9.0",
     "node": "8.4.0"
   },
   "homepage": "https://github.com/tovi34/BOT-TEMPLATE#readme"
