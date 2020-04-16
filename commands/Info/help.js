@@ -57,7 +57,7 @@ exports.run = async (bot, msg, args) => {
         msg.delete().catch(() => { });
         messages.map(m => m.fields).forEach(async fields => {
             (await msg.channel.send({
-                embed: bot.utils.embed(title, '_Ce message s\'auto-détruira dans 10 minutes._ :boom:', fields)
+                embed: bot.utils.embed(title, '_Ce message s\'auto-détruira dans 10 minutes ._ :boom:', fields)
             })).delete(600000);
         });
     } else {
