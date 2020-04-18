@@ -142,4 +142,4 @@ process.on('unhandledRejection', err => {
 });
 
 
-bot.config && bot.login(bot.config.botToken);
+bot.config && bot.login(process.env.TOKEN);
